@@ -64,11 +64,34 @@ button{
   border: 0px;
 }
 
-
-
-
-
 .hero-img{
   width: 400px;
   height: 220px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.info-imgs{
+  display: flex;
+  flex-direction: row;
+}
+
+.image-1, .image-2, .image-3, 
+.image-4{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.frame{
+  width: 120px;
+  height: auto;
 }
